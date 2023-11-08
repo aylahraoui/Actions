@@ -13,13 +13,13 @@ jobs:
   initialize:
     runs-on: ubuntu-latest
     steps:
-      name: testing actions
-      run: echo 'Begin Testing'
-      shell: bash
+      - name: testing actions
+        run: echo 'Begin Testing'
+        shell: bash
 
   finish:
     runs-on: ubuntu-latest
     steps:
-      name: job end
-      run: echo 'Job Finished'
-      shell: bash
+      - name: job end
+        run: echo 'Job Finished'
+        shell: bash
